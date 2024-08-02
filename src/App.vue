@@ -37,7 +37,7 @@ router.beforeEach((to, from) => {
 html, body {
   height: 100%;
   overflow-x: hidden;
-  overflow-y: scroll;
+  overflow-y: hidden;
 }
 #app {
   height: 100%;
@@ -46,6 +46,7 @@ html, body {
   -moz-osx-font-smoothing: grayscale;
   // text-align: center;
   color: #2c3e50;
+  overflow-y: scroll;
 }
 
 .router-view{
